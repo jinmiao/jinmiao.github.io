@@ -14,7 +14,9 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
+        <!-- 按照page id 大小排序 : 小－>大 -->
+        {% assign pages = site.pages | sort: 'id' %}
+        {% for page in pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
