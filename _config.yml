@@ -10,3 +10,10 @@ github_username: jinmiao
 
 # Build settings
 markdown: kramdown
+
+
+# 添加多说评论组件
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : jinmiao

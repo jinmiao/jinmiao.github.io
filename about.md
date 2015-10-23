@@ -1,8 +1,9 @@
 ---
 
 layout: page
-title: About
-permalink: /about/
+title: 关于
+permalink: /关于/
+id: 101
 
 ---
 
@@ -17,7 +18,7 @@ permalink: /about/
 目前就职于：[口袋购物-微店](http://www.weidian.com){:target="_blank"}
 
 目前负责产品：[微店全球购](http://www.weidian.com/apps/global.html){:target="_blank"}
-  
+
 个人微博：[@宇苗](http://weibo.com/oyjm){:target="_blank"}
 
 ##其他项目
