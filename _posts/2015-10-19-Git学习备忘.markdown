@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Git学习备忘"
+date:   2015-10-19 16:36:48
+categories: git
+
+---
+
+###Git学习备忘
+
+
+####常用命令备忘
+
+#####初始化git仓库
+
+{% highlight text%}
+
+git init
+
+{% endhighlight %}
+
+
