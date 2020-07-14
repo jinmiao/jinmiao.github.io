@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "policy"
+title:  "policy_kuai"
 date:   2020-07-14 16:36:48
-categories: 0
+categories: p
 
 ---
 
