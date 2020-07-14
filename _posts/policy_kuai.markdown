@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "policy"
+categories: 0
+
+---
+
 **Privacy Policy**
 
 Jinmiao built the 俄罗斯方块 app as a Free app. This SERVICE is provided by Jinmiao at no cost and is intended for use as is.
