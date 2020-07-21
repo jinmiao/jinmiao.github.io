@@ -17,3 +17,5 @@ comments :
     provider : duoshuo
     duoshuo :
       short_name : jinmiao
+
+theme: jekyll-theme-cayman
