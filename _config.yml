@@ -2,7 +2,7 @@
 title: 欧阳金苗の博客
 email: oyjm0601@yeah.net
 description: > # this means to ignore newlines until "baseurl:"
-  码农自留地</br></br>
+  </br>码农自留地</br>
   学习是一种信仰，分享是一种能力。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ouyangjinmiao.com" # the base hostname & protocol for your site
