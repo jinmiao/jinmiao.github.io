@@ -30,16 +30,17 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        {% for post in site.posts limit : 10 %}
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
+            <!-- {% if post.subtitle %}
             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
             {% else %}
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
+            {% endif %} -->
+            <h5 class="post-subtitle">{{ post.excerpt }}</h5>
           </a>
           <p class="post-meta">Posted by
             {% if post.author %}
@@ -58,7 +59,7 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">所有文章 &rarr;</a>
         </div>
 
       </div>
