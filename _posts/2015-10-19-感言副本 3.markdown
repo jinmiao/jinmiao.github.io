@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "感言"
+background: '../images/blog-background.png'
+date:   2015-10-19 16:36:48
+categories: 随感
+
+---
+
+###感言
+
+博客`androideng.com`，写写停停，一直没有坚持下来，主题也是换了又换，浪费不少时间。
+
+
+
+{% highlight text%}
+
+Yes, I am back.
+
+{% endhighlight %}
+
+
