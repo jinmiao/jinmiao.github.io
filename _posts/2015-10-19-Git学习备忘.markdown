@@ -2,9 +2,8 @@
 layout: post
 title:  "Git学习备忘"
 background: '../images/blog-background.png'
-date:   2015-12-25 16:36:48
+date:   2015-12-25 11:35:15 +0800
 categories: git
-
 ---
 
 ###Git学习备忘

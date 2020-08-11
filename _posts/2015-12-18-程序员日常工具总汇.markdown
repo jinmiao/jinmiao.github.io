@@ -2,9 +2,8 @@
 layout: post
 title:  "程序员日常工作工具汇总"
 background: '../images/blog-background.png'
-date:   2015-12-18 16:36:48
+date:   2015-12-10 11:35:15 +0800
 categories: 工具
-
 ---
 
 ###操作命令
