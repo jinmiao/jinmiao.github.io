@@ -28,7 +28,8 @@ url: "http://jinmiao.github.io/" # the base hostname & protocol for your site, e
 github_username:  jinmiao
 
 # Build settings
-theme: jekyll-theme-clean-blog
+# theme: jekyll-theme-clean-blog
+remote-theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
