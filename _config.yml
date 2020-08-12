@@ -60,7 +60,7 @@ comments:
  repo: 'jinmiao.github.io'
  owner: 'jinmiao'
  admin: 'jinmiao'
- distractionFreeMode: true
+ distractionFreeMode: false
 
 
 
