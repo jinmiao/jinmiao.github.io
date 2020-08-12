@@ -52,3 +52,15 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+comments:
+ gitalk: true
+ clientID: '9a58da7cab2879654f23'
+ secret: 'a8151ea019bf81192c5b1b25a39cdfb883d2194d'
+ repo: 'jinmiao.github.io'
+ owner: 'jinmiao'
+ admin: 'jinmiao'
+ distractionFreeMode: true
+
+
+
