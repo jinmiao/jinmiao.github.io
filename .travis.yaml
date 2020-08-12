@@ -12,10 +12,12 @@ notifications:
 before_install:
   - gem update --system --no-document
   - gem install bundler --no-document
+  - bundle install
+  - bundle update
 
 # 假如 bundler 被使用，安装时将运行 `bundle install`.
 script: 
-  - bundle install
+
   - bundle exec jekyll build
 
 after_script:
