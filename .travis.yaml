@@ -1,14 +1,32 @@
 language: ruby
-rvm:
-- 2.1
-# 假如 bundler 被使用，安装时将运行 `bundle install`.
-script: ./bin/cibuild
+rvm: 2.4.1
+#cache: bundler
+before_install:
 
-# 分支白名单
+notifications:
+  email:
+    recipients:
+      - jinnmiao0601@gmail.com # 设置通知邮件
+    on_success: never
+    on_failure: never
+
+# 假如 bundler 被使用，安装时将运行 `bundle install`.
+script: 
+  #- bundle install
+  - bundle exec jekyll build
+
+after_script:
+  - cd _site
+  - git init
+  - git remote add origin https://${REF}
+  - git add .
+  - git commit -m "Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
+  - git push --force --quiet "https://${TOKEN}@${REF}" master:gh-pages
+
 branches:
   only:
-  - gh-pages     # 测试 gh-pages 分支
+  - master
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # 为 html-proofer 的安装加速
+  - REF=git@github.com:jinmiao/blog.git # 设置 github 地址
