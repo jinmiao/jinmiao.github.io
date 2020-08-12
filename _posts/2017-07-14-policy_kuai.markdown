@@ -3,7 +3,7 @@ layout: post
 title:  "policy_kuai"
 background: '../images/blog-background.png'
 date:   2020-07-10 11:35:15 +0800
-categories: p
+published: false
 ---
 
 **Privacy Policy**

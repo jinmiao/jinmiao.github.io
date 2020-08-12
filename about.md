@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 关于
+title: About
 description: 非著名程序员
 permalink: /about/
-background: '../images/blog-background.png'
+background: '/images/blog-background.png'
 ---
 
 ## 简介
