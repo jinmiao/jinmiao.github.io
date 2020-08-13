@@ -6,7 +6,8 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header class="masthead"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
   <header class="masthead">
     {% endif %}
@@ -41,11 +42,15 @@ layout: default
         <div class="clearfix">
 
           {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; 上一篇<span class="d-none d-md-inline">
+          <a class="btn btn-primary float-left"
+            href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+            data-placement="top" title="{{ page.previous.title }}">&larr; 上一篇<span class="d-none d-md-inline">
               文章</span></a>
           {% endif %}
           {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">下一篇<span class="d-none d-md-inline">
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+            data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">下一篇<span
+              class="d-none d-md-inline">
               文章</span> &rarr;</a>
           {% endif %}
 
@@ -73,8 +78,8 @@ layout: default
       id: '{{page.date}}',
       // id: decodeURI(location.pathname),
       clientID: '{{ site.comments.clientID }}',  //这里其实可以直接填值，但是考虑到页面安全性，还是通过配置的方式添加
-      clientSecret: '{{ site.comments.secret }}', 
-      repo: '{{ site.comments.repo }}', 
+      clientSecret: '{{ site.comments.secret }}',
+      repo: '{{ site.comments.repo }}',
       owner: '{{ site.comments.owner }}',
       admin: '{{ site.comments.admin }}',
       distractionFreeMode: false

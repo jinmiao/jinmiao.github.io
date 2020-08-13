@@ -18,18 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
 title: 宇苗 の Blog
 email: oyjm0601@yeah.net
 description: >- # this means to ignore newlines until "baseurl:"
   北漂十四年，码农十年
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.ouyangjinmiao.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.androideng.cn/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  jinmiao
 
 # Build settings
-# theme: jekyll-theme-clean-blog
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+theme: jekyll-theme-clean-blog
+# remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 # plugins:
 #   - jekyll-feed
 
@@ -54,13 +60,13 @@ exclude:
   - vendor/ruby/
 
 comments:
- gitalk: true
- clientID: '9a58da7cab2879654f23'
- secret: 'a8151ea019bf81192c5b1b25a39cdfb883d2194d'
- repo: 'jinmiao.github.io'
- owner: 'jinmiao'
- admin: 'jinmiao'
- distractionFreeMode: false
+  gitalk: true
+  clientID: '9a58da7cab2879654f23'
+  secret: 'a8151ea019bf81192c5b1b25a39cdfb883d2194d'
+  repo: 'jinmiao.github.io'
+  owner: 'jinmiao'
+  admin: 'jinmiao'
+  distractionFreeMode: false
 
 
 
