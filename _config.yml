@@ -34,8 +34,8 @@ url: "http://www.androideng.cn/" # the base hostname & protocol for your site, e
 github_username:  jinmiao
 
 # Build settings
-#theme: jekyll-theme-clean-blog
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+theme: jekyll-theme-clean-blog
+# remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 # plugins:
 #   - jekyll-feed
 
